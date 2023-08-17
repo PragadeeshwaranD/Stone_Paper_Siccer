@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone_paper_Siccer</title>
+</head>
+<body>
+    <!-- Subscribe and Unsubscribe -->
+
+    <p>Click below button to subscribe</p>
+    <button onclick="button1()" class="button">Subscribe</button><br>
+
+    <!-- Stone_paper_Siccer -->
+     
+    <h1>Stone_paper_Siccer</h1>
+    <button class="button3" onclick="S_P_S();
+    stone(); result();">Stone</button>
+
+    <button onclick="S_P_S(); paper(); result1();" class="button4">paper</button>
+    <button onclick="S_P_S(); siccer(); result2()" class="button5">Siccer</button>
+
+    <p class="par"></p>
+    <p class="par2"></p>
+
+    <label class="label1"></label>
+    <label class="label2"></label>
+    <label class="label3"></label><br>
+
+    <button class="but" onclick="localStorage.removeItem('pro1')">Reset</button>
+
+    <!-- Shipping -->
+
+    <h1>Amazon Shipping</h1>
+    <p>Shipping cost below $40 = +$10 charge.</p>
+    <p>Shipping cost above $40 = No Charge.</p>
+    <input class="inp" type="number" onclick="inp1()"><button>Calculate</button><br>
+    <label class="lab"></label>
+
+<script src="./index.js"></script>
+</body>
+</html>
